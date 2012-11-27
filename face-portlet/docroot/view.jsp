@@ -49,7 +49,7 @@
       </div>
       <div class="buttons">
     	  <input type="button" name= "EditTagImage" value="Edit Tags" onclick="editTagImage()"/>
-    	  <input type="submit" name= "DoneTagging" value="Done Tagging" onclick="editTag(0);hideBox();"/>
+    	  <input type="submit" name= "DoneTagging" value="Done Tagging" onclick="editTag();hideBox();"/>
       </div>
       <c:set var="count" value="0" scope="page" />
        <c:forEach items="${listFace}" var="tagItr" >

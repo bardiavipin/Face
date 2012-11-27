@@ -73,7 +73,7 @@
 			createMapAreas();
 			drawrectangle("blackrectangle");
     	}
-		else if(no==0){
+		else{
 			hideAllArea();			
 		}
     }
